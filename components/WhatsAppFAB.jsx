@@ -56,7 +56,7 @@ const WhatsAppFAB = () => {
         bottom: { xs: 16, md: 24 },
         right: { xs: 16, md: 24 },
         zIndex: 1000,
-        display: 'flex',
+        display: { xs: 'none', md: 'flex' },
         flexDirection: 'column',
         alignItems: 'flex-end',
         gap: 2
@@ -169,30 +169,6 @@ const WhatsAppFAB = () => {
             }}
           >
             <WhatsApp sx={{ fontSize: 32 }} />
-            
-            {/* Pulse animation ring */}
-            <Box
-              sx={{
-                position: 'absolute',
-                top: -4,
-                left: -4,
-                right: -4,
-                bottom: -4,
-                borderRadius: '50%',
-                border: '2px solid #25D366',
-                animation: 'pulse 2s infinite',
-                '@keyframes pulse': {
-                  '0%': {
-                    transform: 'scale(1)',
-                    opacity: 1
-                  },
-                  '100%': {
-                    transform: 'scale(1.2)',
-                    opacity: 0
-                  }
-                }
-              }}
-            />
           </Fab>
         </motion.div>
       </Box>

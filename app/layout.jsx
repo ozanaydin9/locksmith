@@ -18,6 +18,11 @@ export const metadata = {
   authors: [{ name: 'CEM ANAHTAR' }],
   creator: 'CEM ANAHTAR',
   publisher: 'CEM ANAHTAR',
+  icons: {
+    icon: '/icon.svg',
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
   formatDetection: {
     email: false,
     address: false,

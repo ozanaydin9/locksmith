@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="6" fill="#081229"/>
+  <g transform="translate(8, 6)">
+    <!-- Lock Body -->
+    <rect x="2" y="10" width="12" height="10" rx="2" fill="#F6B93B" stroke="#D4AC0D" stroke-width="0.5"/>
+    
+    <!-- Lock Shackle -->
+    <path d="M5 10V7C5 4.79086 6.79086 3 9 3V3C11.2091 3 13 4.79086 13 7V10" 
+          stroke="#F6B93B" stroke-width="2" fill="none" stroke-linecap="round"/>
+    
+    <!-- Keyhole -->
+    <circle cx="8" cy="15" r="1.5" fill="#081229"/>
+    <rect x="7.5" y="15" width="1" height="2" fill="#081229"/>
+    
+    <!-- Shine Effect -->
+    <ellipse cx="6" cy="12" rx="1" ry="2" fill="rgba(255,255,255,0.3)"/>
+  </g>
+</svg>
